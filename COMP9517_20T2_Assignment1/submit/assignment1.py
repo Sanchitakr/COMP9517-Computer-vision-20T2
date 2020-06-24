@@ -61,8 +61,8 @@ def correct_range(img, height, width):
 
 
 if __name__ == "__main__":
-    img = cv2.imread("Particles.png",0)  
-    #img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).astype(np.uint8)
+    img = cv2.imread("20200615_192030.jpg")  
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).astype(np.uint8)
     N = 13
     print("=====================================================TASK 1=======================================================================================================")
 
