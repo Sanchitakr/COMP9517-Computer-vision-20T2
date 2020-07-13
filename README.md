@@ -3,6 +3,6 @@ My progress throughout the course
 
 > Assignment 1 [indivisual] = 7/10
 
-> labs All - 2.5/2.5 = 18/20
+> labs All = 18/20
 
 > Group project - */30
