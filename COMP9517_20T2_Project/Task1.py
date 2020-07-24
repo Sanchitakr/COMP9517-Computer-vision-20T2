@@ -41,13 +41,12 @@ dataset = int(input())
 #------------------------------------------ LOGIC ----------------------------------------------------------
 
 #open first image in file to get size for the cell tracking pathway map
-#assumes first file in folder is called "t000.tif"
+# files in folder are in the format "t000.tif"
 (ht,wd,dt) = cv2.imread(file_path+"/t000.tif").shape
 pathway_mask = np.zeros((ht,wd,3), np.uint8)
 pathway_color = [255, 0, 0]
 
 #loop to open all the images in the given filepath and perform tracking on them
-
 directory = os.fsencode(file_path)
 for file in os.listdir(directory):
     filename = os.fsdecode(file)
